@@ -1,4 +1,4 @@
-secret = 3;
+secret = 4;
 
 for i in range(0,3):
     guess = int(input("Guess a number: "))
@@ -8,3 +8,4 @@ for i in range(0,3):
     elif guess != secret:
         print("Incorrect Guess")
         break;
+
